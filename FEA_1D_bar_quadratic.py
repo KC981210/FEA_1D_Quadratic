@@ -57,13 +57,6 @@ for l in range(n):
    print("\n q%d = " % o, X[l], "mm\n")
 
 
-# Calculations for Elemental Stress
-#or s in range(e):
- #   S=(E1[s]*10**3)*(2/L1[s]) 
-  #  for t in range(-1, 2, 1):
-   #     B = [(2*t-1)/2, (2*t+1)/2, -2*t]
-
-
 # reaction at fixed support
 R1 = (np.matmul(K[0], X)-F[0])/10**3
 R1=np.around(R1,8,out=None)
