@@ -1,11 +1,7 @@
 #import numpy
 import numpy as np
 import matplotlib.pyplot as plt
-print("Name : Ketan Chaudhari")
-print("class : BE MECH 2")
-print("Roll Number : 13")
-print("PRN Number : F17312019")
-print("Univ. PRN: 71818219H")
+
 
 
 ## Number of elements and nodes.
